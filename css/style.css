@@ -1,0 +1,64 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+
+body {
+	background: url('../images/chair-gelica.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: left;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: #2db8a2;
+	float: right;
+	width:424px;
+	color:white;
+	padding: 15px;
+}
+
+
+h1 {
+	font-size:90px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 2px;
+}
+
+h2 {
+	background: #483D8B;
+	color: #FFFFFF;
+	border-radius: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	padding: 10px;
+}
+
+h3 {
+	color: #483D8B;
+	border-radius: 10px;
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 18px;
+	padding: 5px;
+}
+
+a {
+	color: #d9d9dd;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: #2b2a34;	
+}
